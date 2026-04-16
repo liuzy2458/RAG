@@ -104,6 +104,16 @@ Before running the project, please add your own API key at the beginning of `rag
 
 ---
 
+## Installation
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
 ## Author
 
 Ziyang Liu  
