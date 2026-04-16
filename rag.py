@@ -1,3 +1,5 @@
+Your_ZHIPU_API_KEY = ""
+
 import os
 
 import chromadb
@@ -62,7 +64,7 @@ log_step("Loading build configuration")
 
 llm = ZhipuAI(
     model="glm-4-flash",
-    api_key=os.getenv("ZHIPUAI_API_KEY", "0486fe71027f4d5f9e24605197e9cc5f.ysSdMm4dihsm3g6q")
+    api_key=os.getenv("ZHIPUAI_API_KEY", "Your_ZHIPU_API_KEY")
 )
 
 embed_model = HuggingFaceEmbedding(model_name=EMBED_MODEL_NAME)
