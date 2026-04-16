@@ -51,7 +51,7 @@ def load_pdf_documents_with_pymupdf(pdf_dir: str) -> list[Document]:
     return documents
 
 
-PDF_DIR = "C:/Users/liuzy/Documents/yr3 sem2/seem2460/project/pdf-testing"
+PDF_DIR = "data"
 CHROMA_DIR = "./chroma_db"
 COLLECTION_NAME = "rag_demo"
 
