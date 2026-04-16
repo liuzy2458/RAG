@@ -54,10 +54,11 @@ The overall pipeline consists of four main stages:
 
 ## Project Structure
 ├── rag.py # Main RAG pipeline
+
 ├── query_only.py # Baseline retrieval + generation
-├── query_no_reranker.py # Retrieval without reranking
-├── pipeline.png # Pipeline illustration
+
 ├── README.md
+
 └── requirements.txt
 
 ---
