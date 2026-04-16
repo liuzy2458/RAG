@@ -1,5 +1,5 @@
-Your_ZHIPU_API = ""
-Your_DEEPSEEK_API = ""
+Your_ZHIPU_API_key = ""
+Your_DEEPSEEK_API_key = ""
 
 import os
 
@@ -116,11 +116,11 @@ log_step("Initializing LLM and query-time embedding model")
 
 llm = ZhipuAI(
     model="glm-4-flash",
-    api_key=os.getenv("ZHIPUAI_API_KEY", "Your_ZHIPU_API"),
+    api_key=os.getenv("ZHIPUAI_API_KEY", "Your_ZHIPU_API_key"),
 )
 
 evaluator_client = DeepSeekClient(
-    api_key=os.getenv("DEEPSEEK_API_KEY", "Your_DEEPSEEK_API"),
+    api_key=os.getenv("DEEPSEEK_API_KEY", "Your_DEEPSEEK_API_key"),
     base_url="https://api.deepseek.com",
 )
 
