@@ -100,6 +100,8 @@ This evaluation framework is used to compare different retrieval strategies and 
 
 This project is still ongoing. Planned improvements include integrating advanced retrieval strategies such as hybrid retrieval (combining semantic and keyword search) and section-aware retrieval, as well as further optimization of the retrieval and reranking pipeline to improve accuracy and robustness.
 
+Before running the project, please add your own API key at the beginning of `rag.py` and `query_only.py`.
+
 ---
 
 ## Author
