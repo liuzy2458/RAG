@@ -1,3 +1,6 @@
+Your_ZHIPU_API = ""
+Your_DEEPSEEK_API = ""
+
 import os
 
 import chromadb
@@ -113,11 +116,11 @@ log_step("Initializing LLM and query-time embedding model")
 
 llm = ZhipuAI(
     model="glm-4-flash",
-    api_key=os.getenv("ZHIPUAI_API_KEY", "0486fe71027f4d5f9e24605197e9cc5f.ysSdMm4dihsm3g6q"),
+    api_key=os.getenv("ZHIPUAI_API_KEY", "Your_ZHIPU_API"),
 )
 
 evaluator_client = DeepSeekClient(
-    api_key=os.getenv("DEEPSEEK_API_KEY", "sk-b35732f3b2b94e33acfc64c6069cb02c"),
+    api_key=os.getenv("DEEPSEEK_API_KEY", "Your_DEEPSEEK_API"),
     base_url="https://api.deepseek.com",
 )
 
