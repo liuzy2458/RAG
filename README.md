@@ -116,20 +116,20 @@ python chat.py
 python chat.py --query "Explain AI governance principles"
 ```
 
-chat.py Options
+## chat.py Options
 --quiet: reduce logs
 --fast: faster but lower accuracy
 --no-rerank: skip reranker
 --api-key: manually specify API key
 
-Directory Structure
+## Directory Structure
 pdf/: source documents
 rag_cache/: processed text and chunks
 chroma_db/: vector database
 output/: evaluation results
 question/: question sets
 
-Future Work
+## Future Work
 stronger reranking models
 multi-turn conversation support
 improved retrieval strategies
