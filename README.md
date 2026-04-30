@@ -102,43 +102,43 @@ python chat.py
 python chat.py --query "Briefly explain the core principles of AI governance in this document?"
 ```
 
-## `chat.py` 可选项
+## `chat.py` Options
 
-- `--quiet`：隐藏大部分日志、HF 警告和进度条
-- `--fast`：减少检索候选数、缩减查询重写、跳过 reranker，加快响应
-- `--no-rerank`：跳过 cross-encoder reranker，进一步提高速度
-- `--api-key`：显式指定 `ZHIPUAI_API_KEY`
+- `--quiet`: Hide most logs, HF warnings, and progress bars
+- `--fast`: Reduce retrieval candidates, shorten query rewriting, skip reranker for faster response
+- `--no-rerank`: Skip cross-encoder reranker for even faster speed
+- `--api-key`: Explicitly specify `ZHIPUAI_API_KEY`
 
-## 运行建议
+## Usage Recommendations
 
-- 首次使用先确保 `pdf/` 中的文档已完成预处理与索引构建
-- 若文本已缓存，可直接重复使用现有 `rag_cache/` 和 `chroma_db/`
-- `--rebuild-index` 或 `--reprocess-pdf` 可在数据变更后强制刷新缓存
+- For first use, ensure documents in `pdf/` are preprocessed and indexed
+- If text is cached, reuse existing `rag_cache/` and `chroma_db/`
+- Use `--rebuild-index` or `--reprocess-pdf` to force cache refresh after data changes
 
-## 目录结构简介
+## Directory Structure Overview
 
-- `pdf/`：源 PDF 文档
-- `rag_cache/`：预处理文本与 chunk 缓存
-- `chroma_db/`：Chroma 向量索引文件
-- `output/`：评估结果、样本输出、检查点文件
-- `question/`：问题集 JSON
+- `pdf/`: Source PDF documents
+- `rag_cache/`: Preprocessed text and chunk cache
+- `chroma_db/`: Chroma vector index files
+- `output/`: Evaluation results, sample outputs, checkpoint files
+- `question/`: Question set JSON
 
-## 版本说明
+## Version Notes
 
-该项目已经覆盖了一个较完整的 RAG 体系：
+This project covers a relatively complete RAG system:
 
-1. 文档预处理与页码追踪
-2. 句子级 chunk 切分
-3. 向量检索 + BM25 检索
-4. 语言模型查询重写
-5. 加权 RRF 检索融合
-6. cross-encoder 重排
-7. 上下文限制的 LLM 回答生成
-8. 评价与结果导出
+1. Document preprocessing with page number tracking
+2. Sentence-level chunk splitting
+3. Vector retrieval + BM25 retrieval
+4. Language model query rewriting
+5. Weighted RRF retrieval fusion
+6. Cross-encoder reranking
+7. Context-constrained LLM answer generation
+8. Evaluation and result export
 
-如果你想继续拓展，可考虑加入：
+If you want to expand further, consider adding:
 
-- 更强的检索 reranker
-- 直接问答与检索混合策略
-- 多轮对话上下文维护
-- 更健壮的中文文本预处理和分词支持
+- Stronger retrieval rerankers
+- Direct QA and retrieval hybrid strategies
+- Multi-turn conversation context maintenance
+- More robust Chinese text preprocessing and tokenization support
