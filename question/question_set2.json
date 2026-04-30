@@ -1,0 +1,452 @@
+[
+  {
+    "question_id": 71,
+    "question": "How does the AI Index Report’s discussion of policy and governance trends compare with the OECD implementation report’s account of actual policy adoption?",
+    "answer": "Document 3 describes AI policy and governance mainly through measurable trends, such as increases in AI legislation, regulation, policy mentions, and national strategies. It emphasizes how policymakers across the world are paying more attention to AI and how regulatory activity is expanding. Document 7 focuses more directly on actual policy adoption and implementation by Adherents, using the OECD.AI Policy Observatory and national reporting to show how principles have been translated into concrete initiatives. In short, Document 3 presents macro-level policy trends, while Document 7 provides a more implementation-focused account of how countries are acting on AI governance.",
+    "evidence": [
+      {
+        "source": "3__Artificial_Intelligence_Index_Report_2024_chapter_7.pdf",
+        "pages": "3-10, 26-37"
+      },
+      {
+        "source": "7__Report_on_the_Implementation_of_the_OECD_Recommendation_on_Artificial_Intelligence.pdf",
+        "pages": "6-7, 27-31, 36-37"
+      }
+    ]
+  },
+  {
+    "question_id": 72,
+    "question": "Compare the treatment of trustworthiness in the U.S. AI executive framework and the ASEAN AI governance guide.",
+    "answer": "Document 4 connects trustworthy AI to safety, security, privacy, equity, civil rights, consumer protection, and public trust, and treats these as priorities for government-wide action. It emphasizes testing, standards, labeling, and oversight as ways to ensure AI is safe, secure, and trustworthy. Document 5 presents trustworthiness through seven guiding principles, including transparency and explainability, fairness and equity, security and safety, human-centricity, privacy and data governance, accountability and integrity, and robustness and reliability. In short, Document 4 frames trustworthiness as a public policy objective, while Document 5 frames it as an organizational governance framework for responsible deployment.",
+    "evidence": [
+      {
+        "source": "4__Safe_Secure_and_Trustworthy_Development_and_Use_of_Artificial_Intelligence.pdf",
+        "pages": "75191-75193"
+      },
+      {
+        "source": "5__ASEAN-Guide-on-AI-Governance-and-Ethics.pdf",
+        "pages": "10-18"
+      }
+    ]
+  },
+  {
+    "question_id": 73,
+    "question": "How do the UNESCO ethics recommendation and the ASEAN guide differ in balancing innovation with ethical safeguards?",
+    "answer": "Document 2 states clearly that addressing risks and ethical concerns should not hamper innovation, but should instead stimulate ethically conducted research and innovation anchored in human rights and fundamental freedoms. It balances innovation with safeguards through values, principles, and policy actions such as ethical impact assessment, oversight, and due diligence. Document 5 takes a more practical and implementation-oriented approach, presenting a voluntary guide for organizations to design, develop, and deploy AI responsibly while still supporting adoption and interoperability across ASEAN. In short, Document 2 frames the balance in normative and rights-based terms, while Document 5 frames it in operational and governance terms for real-world organizational use.",
+    "evidence": [
+      {
+        "source": "2__Recommendation_on_the_ethics_of_artificial_intelligence.pdf",
+        "pages": "1-2, 10-11"
+      },
+      {
+        "source": "5__ASEAN-Guide-on-AI-Governance-and-Ethics.pdf",
+        "pages": "7-8, 18-27"
+      }
+    ]
+  },
+  {
+    "question_id": 74,
+    "question": "How do specific generative AI frameworks differ in addressing model-level risks versus organizational controls?",
+    "answer": "File 9 addresses model-specific risks in a much more detailed and technical way. It explicitly discusses hallucination, misuse, copyright issues, security threats, dangerous capabilities, and alignment, and recommends concrete measures such as RLHF, RAG, input/output filters, red teaming, incident reporting, content provenance, and safety R&D [1]. File 10 is broader and more organizational: it covers incorrect information, abuse, bias, overreliance, and transparency, but mainly through governance controls like policies, monitoring, training, documentation, and incident response rather than model-level safeguards [2].",
+    "evidence": [
+      {
+        "source": "9. Model AI Governance Framework for Generative AI.pdf",
+        "pages": "3, 13-15, 16-18, 21-27"
+      },
+      {
+        "source": "10. Generative AI Governance Framework.pdf",
+        "pages": "12, 18-19"
+      }
+    ]
+  },
+  {
+    "question_id": 75,
+    "question": "How do Microsoft’s blueprint and the UNESCO recommendation differ in assigning responsibility among governments, firms, and civil society?",
+    "answer": "Document 2 assigns responsibility broadly across Member States, private sector companies, civil society, research institutions, and other AI actors, with governments expected to create legal and policy frameworks and all stakeholders expected to play their respective roles. It takes a multistakeholder and international governance approach rooted in ethics and human rights. Document 6 also supports multistakeholder governance, but it places stronger emphasis on the distinct responsibilities of governments, technology companies, and AI infrastructure providers within a layered regulatory model. In short, Document 2 distributes responsibility normatively across society, while Document 6 maps responsibility more explicitly onto the AI technology stack and governance system.",
+    "evidence": [
+      {
+        "source": "2__Recommendation_on_the_ethics_of_artificial_intelligence.pdf",
+        "pages": "3-5, 9-10"
+      },
+      {
+        "source": "6__Microsoft_Governing_AI_A_Blueprint_for_the_Future.pdf",
+        "pages": "6-8, 15-18"
+      }
+    ]
+  },
+  {
+    "question_id": 76,
+    "question": "Compare the OECD implementation report and the post-COVID national AI strategies review in their perspectives on AI as a development tool.",
+    "answer": "Document 7 presents AI as a tool that can support inclusive growth, sustainable development, and well-being, and it shows that many Adherents are incorporating these goals into national AI strategies. Its focus, however, is primarily on implementation of the OECD AI Principles among Adherents. Document 8 treats AI more explicitly as a development tool in the context of emerging markets and developing countries, highlighting AI’s potential to support education, health care, climate action, public services, and post-COVID recovery. In short, Document 7 discusses development within the broader OECD principles framework, while Document 8 centers development outcomes much more directly.",
+    "evidence": [
+      {
+        "source": "7__Report_on_the_Implementation_of_the_OECD_Recommendation_on_Artificial_Intelligence.pdf",
+        "pages": "7-9, 26-27"
+      },
+      {
+        "source": "8__Harnessing_Artificial_Intelligence_for_Development_in_the_Post-COVID-19_Era.pdf",
+        "pages": "1-5"
+      }
+    ]
+  },
+  {
+    "question_id": 77,
+    "question": "How do the ASEAN guide and the UNESCO recommendation approach inclusion, fairness, and non-discrimination in AI governance?",
+    "answer": "Document 2 treats inclusion, fairness, and non-discrimination as core ethical principles and explicitly links them to human rights, social justice, equitable access, and the protection of marginalized and vulnerable groups. It also calls on AI actors to minimize discriminatory and biased outcomes throughout the AI lifecycle. Document 5 approaches these issues through practical governance measures, especially its principles of fairness and equity, human-centricity, and privacy and data governance, and it emphasizes representative datasets, regular bias testing, and inclusive access across different groups. In short, Document 2 provides a broad rights-based ethical foundation, while Document 5 translates fairness and inclusion into operational steps for organizations.",
+    "evidence": [
+      {
+        "source": "2__Recommendation_on_the_ethics_of_artificial_intelligence.pdf",
+        "pages": "6-9"
+      },
+      {
+        "source": "5__ASEAN-Guide-on-AI-Governance-and-Ethics.pdf",
+        "pages": "12-15, 30-33"
+      }
+    ]
+  },
+  {
+    "question_id": 78,
+    "question": "How do the PDPC model framework and the WEF procurement guidelines differ in guiding private-sector AI adoption?",
+    "answer": "The PDPC model framework gives practical guidance for private-sector AI adoption mainly through governance processes inside organizations, such as assigning roles, deciding the level of human oversight, managing data and models, and communicating with stakeholders [3]. The WEF procurement guidelines are also practical, but they are specifically designed for organizations buying AI solutions from vendors. They focus on procurement steps such as evaluating strategic fit, commercial value, data practices, ethics, and supplier governance across the sourcing process [4]. So, the PDPC framework is a general operational governance guide, while the WEF document is a procurement-oriented adoption guide.",
+    "evidence": [
+      {
+        "source": "11. Model Artificial Intelligence Governance Framework Personal Data Protection Commission (PDPC) Singapore.pdf",
+        "pages": "13-16, 20-24, 35-63"
+      },
+      {
+        "source": "12. WEF Adopting AI Responsibly Guidelines for Procurement of AI Solutions by the Private Sector 2023.pdf",
+        "pages": "5-12"
+      }
+    ]
+  },
+  {
+    "question_id": 79,
+    "question": "How does the AI Index Report and Microsoft’s blueprint frame the most urgent global AI governance challenges?",
+    "answer": "Document 3 frames the urgency of AI governance mainly through policy developments, regulatory growth, legislative attention, and the global spread of AI-related policymaking. It highlights the sharp rise in AI regulation, national strategies, and legislative mentions as evidence that governments see AI governance as urgent. Document 6 frames urgency more substantively, focusing on the immediate need for safety, legal accountability, control over powerful models, transparency, and public-private coordination. In short, Document 3 shows urgency through policy trends and institutional response, while Document 6 defines urgency through governance problems that need practical solutions.",
+    "evidence": [
+      {
+        "source": "3__Artificial_Intelligence_Index_Report_2024_chapter_7.pdf",
+        "pages": "4-10"
+      },
+      {
+        "source": "6__Microsoft_Governing_AI_A_Blueprint_for_the_Future.pdf",
+        "pages": "3-8"
+      }
+    ]
+  },
+  {
+    "question_id": 80,
+    "question": "How do the U.S. executive framework and UNESCO’s ethics recommendation differ in their treatment of safety versus rights?",
+    "answer": "Document 4 treats safety and rights as parallel priorities and links both to concrete government action, such as standards, testing, civil rights enforcement, privacy protections, and oversight of critical infrastructure and national security risks. It is especially focused on implementation through executive direction. Document 2 integrates safety into a broader ethical and human-rights framework, where safety, fairness, privacy, human dignity, and environmental protection are all grounded in international law and moral principles. In short, Document 4 is more action- and enforcement-oriented, while Document 2 is more principle- and rights-oriented.",
+    "evidence": [
+      {
+        "source": "2__Recommendation_on_the_ethics_of_artificial_intelligence.pdf",
+        "pages": "5-10"
+      },
+      {
+        "source": "4__Safe_Secure_and_Trustworthy_Development_and_Use_of_Artificial_Intelligence.pdf",
+        "pages": "75191-75195"
+      }
+    ]
+  },
+  {
+    "question_id": 81,
+    "question": "Compare the OECD implementation report and the AI Index Report in how they use evidence to evaluate progress in AI governance.",
+    "answer": "Document 3 evaluates progress in AI governance through indicators such as legislative records, AI mentions in parliamentary proceedings, national AI strategies, regulatory actions, and public investment in AI. It relies on counts, trends, and cross-country comparisons to show where policy activity is increasing. Document 7 uses a different evidence base, including the OECD.AI Policy Observatory, questionnaires to Adherents, and qualitative analysis of implementation, dissemination, and continued relevance of the OECD AI Principles. In short, Document 3 measures governance progress through policy activity and quantitative trends, while Document 7 evaluates it through implementation evidence and policy alignment.",
+    "evidence": [
+      {
+        "source": "3__Artificial_Intelligence_Index_Report_2024_chapter_7.pdf",
+        "pages": "11-45"
+      },
+      {
+        "source": "7__Report_on_the_Implementation_of_the_OECD_Recommendation_on_Artificial_Intelligence.pdf",
+        "pages": "6-7, 27-31, 36-37"
+      }
+    ]
+  },
+  {
+    "question_id": 82,
+    "question": "How do the ASEAN guide and the post-COVID review of national AI strategies differ in regional versus national perspectives on AI readiness?",
+    "answer": "Document 5 takes a regional approach by offering a practical governance guide for organizations across ASEAN and by proposing national-level and regional-level recommendations, including an ASEAN Working Group on AI Governance. It emphasizes alignment and interoperability across jurisdictions in the region. Document 8 takes a comparative national perspective, reviewing how individual countries are designing AI strategies based on their own levels of digital development, institutional capacity, and sector priorities. In short, Document 5 is a regional governance framework, while Document 8 is an analysis of national readiness and strategic variation.",
+    "evidence": [
+      {
+        "source": "5__ASEAN-Guide-on-AI-Governance-and-Ethics.pdf",
+        "pages": "7-9, 46-57"
+      },
+      {
+        "source": "8__Harnessing_Artificial_Intelligence_for_Development_in_the_Post-COVID-19_Era.pdf",
+        "pages": "11-15, 16-30"
+      }
+    ]
+  },
+  {
+    "question_id": 83,
+    "question": "Compare how the AI risk management framework and Microsoft’s blueprint define the role of standards, audits, and testing.",
+    "answer": "Document 1 treats standards, testing, evaluation, verification, and validation as central parts of AI risk management, especially in its MEASURE function, which calls for documented metrics, monitoring, and independent review. It sees these practices as necessary for understanding risks and supporting management decisions. Document 6 likewise emphasizes standards, audits, and testing, but it places stronger attention on external testing, red teaming, transparency reporting, and licensing for highly capable models. In short, Document 1 presents these tools as part of a general risk-management framework, while Document 6 presents them as part of a stronger governance and regulatory blueprint for advanced AI systems.",
+    "evidence": [
+      {
+        "source": "1__Artificial_Intelligence_Risk_Management.pdf",
+        "pages": "28-31"
+      },
+      {
+        "source": "6__Microsoft_Governing_AI_A_Blueprint_for_the_Future.pdf",
+        "pages": "10-13"
+      }
+    ]
+  },
+  {
+    "question_id": 84,
+    "question": "How do different frameworks approach transparency through disclosure versus content provenance?",
+    "answer": "File 9 gives explicit recommendations on both disclosure and content provenance. It proposes standardized model disclosure similar to “food labels,” including data sources, evaluation results, safety measures, risks, intended use, and user data protection, and it separately discusses watermarking and cryptographic provenance for AI-generated content [1]. File 10 supports transparency through documentation, reporting, audit trails, and traceability of GenAI decisions, but it does not specifically emphasize watermarking or provenance tools for synthetic content [2].",
+    "evidence": [
+      {
+        "source": "9. Model AI Governance Framework for Generative AI.pdf",
+        "pages": "13-14, 23-25"
+      },
+      {
+        "source": "10. Generative AI Governance Framework.pdf",
+        "pages": "12, 18"
+      }
+    ]
+  },
+  {
+    "question_id": 85,
+    "question": "How does the post-COVID review of national AI strategies compare with Microsoft’s blueprint in linking AI policy to economic competitiveness?",
+    "answer": "Document 8 links AI policy to economic competitiveness mainly through national strategies that support AI talent, research, innovation ecosystems, data access, infrastructure, and sectoral adoption, especially in developing and emerging economies. It emphasizes that countries need supportive conditions to avoid falling behind in the global AI landscape. Document 6 also links AI to competitiveness, but it does so through a policy blueprint focused on responsible innovation, open and competitive markets, semiconductors, talent attraction, small business opportunity, and preventing dominance by a few firms. In short, Document 8 focuses on national development and readiness, while Document 6 focuses on competitiveness through governance, market structure, and innovation policy.",
+    "evidence": [
+      {
+        "source": "6__Microsoft_Governing_AI_A_Blueprint_for_the_Future.pdf",
+        "pages": "5-7, 15-18"
+      },
+      {
+        "source": "8__Harnessing_Artificial_Intelligence_for_Development_in_the_Post-COVID-19_Era.pdf",
+        "pages": "1-5, 7-10, 16-30"
+      }
+    ]
+  },
+  {
+    "question_id": 86,
+    "question": "Compare how the AI risk management framework and UNESCO’s recommendation address high-risk uses of AI.",
+    "answer": "Document 1 uses a contextual risk-based approach rather than a fixed universal list of high-risk AI categories. It says that risks judged to be highest in a given context should receive the most urgent prioritization, and that development and deployment should cease safely when unacceptable negative risks, severe harms, or catastrophic risks are present. Document 2 is more explicit about certain prohibited or highly restricted uses. It says AI should not be used for social scoring or mass surveillance purposes, and it requires final human determination in situations involving irreversible or life-and-death decisions.",
+    "evidence": [
+      {
+        "source": "1__Artificial_Intelligence_Risk_Management.pdf",
+        "pages": "7-8"
+      },
+      {
+        "source": "2__Recommendation_on_the_ethics_of_artificial_intelligence.pdf",
+        "pages": "7-10"
+      }
+    ]
+  },
+  {
+    "question_id": 87,
+    "question": "How do the AI Index Report and the post-COVID review of national AI strategies differ in their portrayal of global AI policy convergence?",
+    "answer": "Document 3 suggests a degree of global convergence by showing that more countries are passing AI-related laws, mentioning AI in legislative proceedings, and developing national AI strategies. It highlights the broad spread of AI policy attention across regions and institutions. Document 8, however, emphasizes variation more than convergence, showing that countries adopt different tools, priorities, and government roles depending on their level of digital development, local capacity, and economic context. In short, Document 3 highlights the growing commonality of AI policy activity, while Document 8 stresses the diversity of national approaches.",
+    "evidence": [
+      {
+        "source": "3__Artificial_Intelligence_Index_Report_2024_chapter_7.pdf",
+        "pages": "11-37"
+      },
+      {
+        "source": "8__Harnessing_Artificial_Intelligence_for_Development_in_the_Post-COVID-19_Era.pdf",
+        "pages": "11-15, 16-30"
+      }
+    ]
+  },
+  {
+    "question_id": 88,
+    "question": "Compare how the U.S. executive framework and the AI risk management framework approach red-teaming, testing, and system assurance.",
+    "answer": "Document 1 approaches testing and assurance through structured measurement practices, including test, evaluation, verification, and validation across the AI lifecycle. It emphasizes documentation, ongoing monitoring, and independent review, but does so within a voluntary framework. Document 4 goes further by directing government action on red-teaming, safety evaluations, testing environments, and reporting requirements for powerful models and related infrastructure. In short, Document 1 provides the governance methodology, while Document 4 pushes toward mandatory assurance measures for high-impact and advanced AI systems.",
+    "evidence": [
+      {
+        "source": "1__Artificial_Intelligence_Risk_Management.pdf",
+        "pages": "9-11, 28-31"
+      },
+      {
+        "source": "4__Safe_Secure_and_Trustworthy_Development_and_Use_of_Artificial_Intelligence.pdf",
+        "pages": "75196-75199"
+      }
+    ]
+  },
+  {
+    "question_id": 89,
+    "question": "How do UNESCO’s recommendation and the OECD implementation report differ in moving from principles to implementation?",
+    "answer": "Document 2 moves from principles to implementation by providing policy action areas and recommendations to Member States, but it remains primarily a normative framework. It sets out what governments and AI actors should aim to do rather than measuring whether they have done so. Document 7 focuses precisely on that next step: it assesses implementation, dissemination, and continued relevance, and it documents how countries have adopted strategies, regulatory initiatives, and governance models based on the OECD AI Principles. In short, Document 2 establishes the ethical and policy foundation, while Document 7 tracks and evaluates its implementation.",
+    "evidence": [
+      {
+        "source": "2__Recommendation_on_the_ethics_of_artificial_intelligence.pdf",
+        "pages": "10-20"
+      },
+      {
+        "source": "7__Report_on_the_Implementation_of_the_OECD_Recommendation_on_Artificial_Intelligence.pdf",
+        "pages": "6-7, 31-37"
+      }
+    ]
+  },
+  {
+    "question_id": 90,
+    "question": "How do different frameworks evaluate use cases for internal governance versus external procurement?",
+    "answer": "File 10 treats use-case evaluation as part of an organizational governance process: it recommends defining GenAI objectives, setting the scope, identifying the most relevant risks, and carrying out a structured risk assessment before execution [2]. File 12 also emphasizes evaluation, but from a procurement perspective: it advises firms to assess whether an AI solution fits business goals, data strategy, ethics, risk, and supplier capability before purchase [4]. In short, File 10 evaluates use cases for internal governance and deployment, while File 12 evaluates them for responsible vendor selection and acquisition.",
+    "evidence": [
+      {
+        "source": "10. Generative AI Governance Framework.pdf",
+        "pages": "6-8"
+      },
+      {
+        "source": "12. WEF Adopting AI Responsibly Guidelines for Procurement of AI Solutions by the Private Sector 2023.pdf",
+        "pages": "8-12"
+      }
+    ]
+  },
+  {
+    "question_id": 91,
+    "question": "How do the ASEAN guide and the U.S. executive framework compare in addressing cross-border and international coordination issues?",
+    "answer": "Document 4 explicitly emphasizes international engagement, coordination with allies and partners, and the development of global frameworks, technical standards, and cross-border protections related to AI risks. It treats international cooperation as part of U.S. leadership in AI governance. Document 5 also values regional and international alignment, but it focuses more on ASEAN harmonization, interoperability of AI governance approaches, and regional cooperation through recommendations such as an ASEAN Working Group on AI Governance. In short, Document 4 frames international coordination globally and strategically, while Document 5 frames it regionally and institutionally within ASEAN.",
+    "evidence": [
+      {
+        "source": "4__Safe_Secure_and_Trustworthy_Development_and_Use_of_Artificial_Intelligence.pdf",
+        "pages": "75193, 75223-75224"
+      },
+      {
+        "source": "5__ASEAN-Guide-on-AI-Governance-and-Ethics.pdf",
+        "pages": "7-8, 53-57"
+      }
+    ]
+  },
+  {
+    "question_id": 92,
+    "question": "Compare how the AI Index Report and UNESCO’s ethics recommendation frame the social impacts of AI on labor, education, and inequality.",
+    "answer": "Document 3 frames the social impacts of AI mainly through policy attention, showing that lawmakers increasingly focus on AI’s effects on labor, education, and broader social governance. It reflects how these issues are entering legislative and regulatory agendas. Document 2 addresses these impacts more substantively, arguing that AI can deepen existing divides and inequalities and therefore must be governed in ways that protect rights, support inclusion, and promote fair access to education, work, and development. In short, Document 3 documents policy attention to social impacts, while Document 2 provides an ethical framework for addressing them.",
+    "evidence": [
+      {
+        "source": "2__Recommendation_on_the_ethics_of_artificial_intelligence.pdf",
+        "pages": "1-3, 16-20"
+      },
+      {
+        "source": "3__Artificial_Intelligence_Index_Report_2024_chapter_7.pdf",
+        "pages": "3-5, 16-20"
+      }
+    ]
+  },
+  {
+    "question_id": 93,
+    "question": "How do the post-COVID national AI strategies review and the OECD implementation report compare in their treatment of capacity building and institutional readiness?",
+    "answer": "Document 8 treats capacity building and institutional readiness as central development challenges, especially in emerging markets and developing countries that may lack investment, AI talent, digital infrastructure, and mature innovation ecosystems. It also reviews the role of governments, civil society, academia, and the private sector in building readiness. Document 7 also discusses capacity building, but more in terms of how Adherents are implementing the OECD AI Principles through national strategies, AI governance bodies, observatories, and policy initiatives such as AI education and skills programs. In short, Document 8 focuses on foundational readiness conditions, while Document 7 focuses on policy and institutional implementation among Adherents.",
+    "evidence": [
+      {
+        "source": "7__Report_on_the_Implementation_of_the_OECD_Recommendation_on_Artificial_Intelligence.pdf",
+        "pages": "23-27, 36-37"
+      },
+      {
+        "source": "8__Harnessing_Artificial_Intelligence_for_Development_in_the_Post-COVID-19_Era.pdf",
+        "pages": "2-4, 7-10, 16-30"
+      }
+    ]
+  },
+  {
+    "question_id": 94,
+    "question": "Compare how the Singapore generative AI framework and the PDPC general framework approach accountability.",
+    "answer": "The Singapore generative AI framework treats accountability as a system-level issue across the AI stack, covering model developers, application deployers, and cloud providers, and it emphasizes shared responsibility, redress, indemnity, and possible insurance-based safety nets [1]. The PDPC general AI framework assumes organizational self-governance more directly: it focuses on assigning internal roles, integrating AI into risk management and ethics structures, and ensuring responsible decision-making and stakeholder communication within the deploying organization [3]. So, the generative AI framework is more ecosystem- and supply-chain-oriented, while the PDPC framework is more organization-centric.",
+    "evidence": [
+      {
+        "source": "9. Model AI Governance Framework for Generative AI.pdf",
+        "pages": "6-8"
+      },
+      {
+        "source": "11.Model Artificial Intelligence Governance Framework Personal Data Protection Commission (PDPC) Singapore.pdf",
+        "pages": "21-24"
+      }
+    ]
+  },
+  {
+    "question_id": 95,
+    "question": "How do UNESCO’s recommendation and the ASEAN guide compare in their treatment of cultural diversity and local context in AI governance?",
+    "answer": "Document 2 gives cultural diversity a prominent place by emphasizing multilingualism, local knowledge, cultural pluralism, and the need to protect and promote cultural expressions throughout the AI lifecycle. It also includes a dedicated policy area on culture, showing that cultural diversity is not peripheral but a central governance concern. Document 5 addresses local context in a more applied way, asking organizations to take into account local norms, values, legal requirements, languages, regions, and industry settings when assessing and deploying AI systems in ASEAN. In short, Document 2 treats cultural diversity as a normative and policy objective, while Document 5 treats local context as a practical requirement for responsible implementation.",
+    "evidence": [
+      {
+        "source": "2__Recommendation_on_the_ethics_of_artificial_intelligence.pdf",
+        "pages": "1-4, 16-17"
+      },
+      {
+        "source": "5__ASEAN-Guide-on-AI-Governance-and-Ethics.pdf",
+        "pages": "7-8, 23-24"
+      }
+    ]
+  },
+  {
+    "question_id": 96,
+    "question": "Compare how the AI Index Report and the U.S. executive framework characterize the relationship between frontier AI development and regulation.",
+    "answer": "Document 3 characterizes the relationship through observable policy trends, showing that advances in AI capabilities have triggered major increases in legislation, regulation, and government attention in the United States and globally. It presents regulation as a response to the rise of more powerful AI systems. Document 4 characterizes the relationship more directly by stating that rapid advances in AI capabilities require stronger standards, testing, reporting, and oversight, especially for highly capable models and critical systems. In short, Document 3 describes the regulatory response to frontier AI, while Document 4 articulates and directs that response.",
+    "evidence": [
+      {
+        "source": "3__Artificial_Intelligence_Index_Report_2024_chapter_7.pdf",
+        "pages": "3-10"
+      },
+      {
+        "source": "4__Safe_Secure_and_Trustworthy_Development_and_Use_of_Artificial_Intelligence.pdf",
+        "pages": "75191-75199"
+      }
+    ]
+  },
+  {
+    "question_id": 97,
+    "question": "Compare the AI risk management framework and the OECD implementation report in their views on measurement, metrics, and accountability.",
+    "answer": "Document 1 treats measurement as a core function of AI risk management and says organizations should use quantitative, qualitative, or mixed methods to analyze, benchmark, monitor, and document AI risks and impacts. It links measurement closely to accountability by stressing documentation, ongoing monitoring, and feedback. Document 7 also recognizes the importance of measurement and metrics, but from a policy implementation perspective, emphasizing internationally comparable indicators, AI observatories, questionnaires, and data collection to assess how countries are applying the OECD AI Principles. In short, Document 1 focuses on organizational measurement of AI systems, while Document 7 focuses on cross-country measurement of AI governance implementation.",
+    "evidence": [
+      {
+        "source": "1__Artificial_Intelligence_Risk_Management.pdf",
+        "pages": "28-31, 19-20"
+      },
+      {
+        "source": "7__Report_on_the_Implementation_of_the_OECD_Recommendation_on_Artificial_Intelligence.pdf",
+        "pages": "2-3, 6, 31-37"
+      }
+    ]
+  },
+  {
+    "question_id": 98,
+    "question": "How do the ASEAN guide and the post-COVID review of national AI strategies differ in their approaches to AI governance in developing economies?",
+    "answer": "Document 5 offers a practical governance framework for organizations in ASEAN, with detailed guidance on internal governance, risk assessment, human oversight, operations management, and stakeholder communication. It also includes national-level and regional-level recommendations to help governments build a supportive environment for responsible AI adoption. Document 8 takes a broader analytical approach, reviewing how different countries in Asia, Africa, and Latin America are developing AI strategies and how government roles vary from enabling to directing. In short, Document 5 is a prescriptive guide for responsible AI governance in practice, while Document 8 is a comparative analysis of how developing economies are trying to build AI governance capacity.",
+    "evidence": [
+      {
+        "source": "5__ASEAN-Guide-on-AI-Governance-and-Ethics.pdf",
+        "pages": "7-9, 46-57"
+      },
+      {
+        "source": "8__Harnessing_Artificial_Intelligence_for_Development_in_the_Post-COVID-19_Era.pdf",
+        "pages": "11-15, 16-30"
+      }
+    ]
+  },
+  {
+    "question_id": 99,
+    "question": "How do the U.S. executive framework and UNESCO’s ethics recommendation compare in addressing public trust in AI?",
+    "answer": "Document 4 addresses public trust by emphasizing safe, secure, and trustworthy AI, and by calling for testing, labeling, privacy protections, civil rights safeguards, and accountability in both public and private uses of AI. It treats trust as something that must be built through governance and enforceable action. Document 2 also treats trust as essential, but it links trust more explicitly to ethical values, human dignity, transparency, explainability, and respect for human rights and cultural diversity. In short, both documents view trust as central, but Document 4 emphasizes institutional action and safeguards, while Document 2 emphasizes ethical legitimacy and rights-based governance.",
+    "evidence": [
+      {
+        "source": "2__Recommendation_on_the_ethics_of_artificial_intelligence.pdf",
+        "pages": "5-10"
+      },
+      {
+        "source": "4__Safe_Secure_and_Trustworthy_Development_and_Use_of_Artificial_Intelligence.pdf",
+        "pages": "75191-75193"
+      }
+    ]
+  },
+  {
+    "question_id": 100,
+    "question": "How do the OECD implementation report and Microsoft’s blueprint differ in their understanding of multistakeholder governance?",
+    "answer": "Document 7 presents multistakeholder governance as an essential feature of AI policy implementation, highlighting the role of governments, industry, civil society, academia, standards bodies, and international organizations in shaping and applying the OECD AI Principles. It also emphasizes expert networks, observatories, and cross-sector cooperation as part of implementation and dissemination. Document 6 also supports multistakeholder governance, but it is more focused on how governments, companies, infrastructure providers, researchers, and civil society should divide responsibilities in a practical governance and regulatory architecture. In short, Document 7 emphasizes multistakeholder governance as a principle and implementation mechanism, while Document 6 emphasizes it as a practical division of governance roles.",
+    "evidence": [
+      {
+        "source": "6__Microsoft_Governing_AI_A_Blueprint_for_the_Future.pdf",
+        "pages": "6-8, 15-18"
+      },
+      {
+        "source": "7__Report_on_the_Implementation_of_the_OECD_Recommendation_on_Artificial_Intelligence.pdf",
+        "pages": "31-36"
+      }
+    ]
+  }
+]

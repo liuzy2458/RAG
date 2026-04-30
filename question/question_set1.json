@@ -1,0 +1,772 @@
+[
+  {
+    "question_id": 1,
+    "question": "How does NIST AI RMF 1.0 define an AI system?",
+    "answer": "An engineered or machine-based system that can, for a given set of objectives, generate outputs such as predictions, recommendations, or decisions influencing real or virtual environments, operating with varying levels of autonomy. (Adapted from OECD AI:2019; ISO/IEC 22989:2022)",
+    "evidence": [
+      {
+        "source": "1__Artificial_Intelligence_Risk_Management.pdf",
+        "pages": "6"
+      }
+    ]
+  },
+  {
+    "question_id": 2,
+    "question": "How does the framework distinguish explainability from interpretability?",
+    "answer": "Explainability refers to the mechanisms underlying AI systems' operation (how a decision was made). Interpretability refers to the meaning of AI systems' output in the context of their designed functional purposes (why a decision was made and what it means to the user).",
+    "evidence": [
+      {
+        "source": "1__Artificial_Intelligence_Risk_Management.pdf",
+        "pages": "21"
+      }
+    ]
+  },
+  {
+    "question_id": 3,
+    "question": "What are the 7 characteristics of trustworthy AI in NIST AI RMF 1.0?",
+    "answer": "1. Valid and Reliable; 2. Safe; 3. Secure and Resilient; 4. Accountable and Transparent; 5. Explainable and Interpretable; 6. Privacy-Enhanced; 7. Fair – with Harmful Bias Managed. Valid & Reliable is the necessary base condition for all other characteristics.",
+    "evidence": [
+      {
+        "source": "1__Artificial_Intelligence_Risk_Management.pdf",
+        "pages": "8"
+      }
+    ]
+  },
+  {
+    "question_id": 4,
+    "question": "What are the 4 core functions of the AI RMF Core and their purposes?",
+    "answer": "GOVERN: cultivates a risk management culture; MAP: establishes context and identifies risks; MEASURE: uses quantitative/qualitative methods to analyze and track risks; MANAGE: prioritizes and acts on risks based on projected impact. GOVERN is cross-cutting across the other three.",
+    "evidence": [
+      {
+        "source": "1__Artificial_Intelligence_Risk_Management.pdf",
+        "pages": "5"
+      }
+    ]
+  },
+  {
+    "question_id": 5,
+    "question": "What are the 3 major categories of AI bias identified in NIST AI RMF 1.0?",
+    "answer": "1. Systemic bias: in datasets, organizational norms/practices, and broader society; 2. Computational and statistical bias: in datasets and algorithms, often from non-representative samples; 3. Human-cognitive bias: how individuals perceive AI information when making decisions.",
+    "evidence": [
+      {
+        "source": "1__Artificial_Intelligence_Risk_Management.pdf",
+        "pages": "22"
+      }
+    ]
+  },
+  {
+    "question_id": 6,
+    "question": "What must an organization do when an AI system presents unacceptable negative risk levels?",
+    "answer": "Development and deployment should cease in a safe manner until risks are sufficiently managed. This applies when significant negative impacts are imminent, severe harms are occurring, or catastrophic risks are present. (MANAGE 1.3: mitigate/transfer/avoid/accept; MANAGE 2.4: deactivate.)",
+    "evidence": [
+      {
+        "source": "1__Artificial_Intelligence_Risk_Management.pdf",
+        "pages": "13"
+      }
+    ]
+  },
+  {
+    "question_id": 7,
+    "question": "What is the purpose of the MAP function in NIST AI RMF, and what key decision does it inform?",
+    "answer": "The MAP function establishes context to frame risks related to an AI system. It enables negative risk prevention and informs an initial go/no-go decision about whether to design, develop, or deploy an AI system. Its outputs serve as the basis for the MEASURE and MANAGE functions.",
+    "evidence": [
+      {
+        "source": "1__Artificial_Intelligence_Risk_Management.pdf",
+        "pages": "30"
+      }
+    ]
+  },
+  {
+    "question_id": 8,
+    "question": "How does NIST AI RMF 1.0 define \"residual risk\" and why is it significant?",
+    "answer": "Residual risk is defined as the risk remaining after risk treatment (ISO GUIDE 73). It directly impacts end users and affected individuals and communities. Documenting residual risks requires the system provider to fully consider deployment risks and informs end users about potential negative impacts.",
+    "evidence": [
+      {
+        "source": "1__Artificial_Intelligence_Risk_Management.pdf",
+        "pages": "13"
+      }
+    ]
+  },
+  {
+    "question_id": 9,
+    "question": "What is the scope of the UNESCO Recommendation on the Ethics of AI, and when was it adopted?",
+    "answer": "It addresses ethical issues related to AI within UNESCO's mandate, approaching AI ethics as a systematic normative reflection based on a holistic, multicultural framework of interdependent values, principles and actions. It was adopted on 23 November 2021 at UNESCO's 41st General Conference in Paris.",
+    "evidence": [
+      {
+        "source": "2__Recommendation_on_the_ethics_of_artificial_intelligence.pdf",
+        "pages": "1"
+      }
+    ]
+  },
+  {
+    "question_id": 10,
+    "question": "What foundational values does UNESCO identify as underlying its AI ethics principles?",
+    "answer": "The Recommendation is grounded in human dignity, human rights, gender equality, social and economic justice, physical and mental well-being, diversity, interconnectedness, inclusiveness, and environmental and ecosystem protection. Values and principles are understood as complementary and interrelated.",
+    "evidence": [
+      {
+        "source": "2__Recommendation_on_the_ethics_of_artificial_intelligence.pdf",
+        "pages": "1"
+      }
+    ]
+  },
+  {
+    "question_id": 11,
+    "question": "What is the purpose of the UNESCO Ethical Impact Assessment (EIA) methodology?",
+    "answer": "It is designed to identify and assess benefits, concerns, and risks of AI systems, as well as appropriate risk prevention, mitigation, and monitoring measures. UNESCO commits to developing EIA methodology, guidance for its implementation across the AI lifecycle, and capacity-building materials for government officials and policymakers.",
+    "evidence": [
+      {
+        "source": "2__Recommendation_on_the_ethics_of_artificial_intelligence.pdf",
+        "pages": "4"
+      }
+    ]
+  },
+  {
+    "question_id": 12,
+    "question": "What monitoring and evaluation mechanisms does the UNESCO Recommendation suggest for Member States?",
+    "answer": "Mechanisms include ethics commissions, AI ethics observatories, AI regulatory sandboxes, experience-sharing mechanisms, and assessment guides for AI actors. Monitoring should use quantitative and qualitative approaches, ensure broad stakeholder participation, and be conducted continuously in proportion to relevant risks.",
+    "evidence": [
+      {
+        "source": "2__Recommendation_on_the_ethics_of_artificial_intelligence.pdf",
+        "pages": "21"
+      }
+    ]
+  },
+  {
+    "question_id": 13,
+    "question": "How does the UNESCO Recommendation address the situation when values and principles conflict in practice?",
+    "answer": "It states that in any given situation a contextual assessment is necessary to manage tensions, taking into account the principle of proportionality and compliance with human rights. Any limitations on human rights must have a lawful basis, be reasonable, necessary, and proportionate, typically requiring engagement with broad stakeholders through social dialogue and ethical deliberation.",
+    "evidence": [
+      {
+        "source": "2__Recommendation_on_the_ethics_of_artificial_intelligence.pdf",
+        "pages": "5"
+      }
+    ]
+  },
+  {
+    "question_id": 14,
+    "question": "What 10 areas of policy action does the UNESCO Recommendation identify for Member States?",
+    "answer": "Policy Area 1: Ethical Impact Assessment; 2: Ethics and Regulation; 3: Data Policy; 4: Development and International Cooperation; 5: Environment and Ecosystems; 6: Gender; 7: Culture; 8: Education and Research; 9: Communication and Information; 10: Economy and Labour.",
+    "evidence": [
+      {
+        "source": "2__Recommendation_on_the_ethics_of_artificial_intelligence.pdf",
+        "pages": "10"
+      }
+    ]
+  },
+  {
+    "question_id": 15,
+    "question": "What environmental obligations does the UNESCO Recommendation place on Member States regarding AI?",
+    "answer": "Member States and business enterprises should assess direct and indirect environmental impacts throughout the AI system lifecycle, including carbon footprint, energy consumption, and resource use. They should promote AI applications that support environmental sustainability and avoid AI uses that harm ecosystems.",
+    "evidence": [
+      {
+        "source": "2__Recommendation_on_the_ethics_of_artificial_intelligence.pdf",
+        "pages": "6"
+      }
+    ]
+  },
+  {
+    "question_id": 16,
+    "question": "What were the key global legislative trends in AI regulation observed in 2023 according to the AI Index Report 2024?",
+    "answer": "AI-related regulations in the US grew sharply to 25 in 2023 (up from 1 in 2016), a 56.3% increase in one year. The EU reached a deal on the AI Act. Globally, AI mentions in legislative proceedings nearly doubled to 2,175 across 49 countries, with at least one country from every continent discussing AI.",
+    "evidence": [
+      {
+        "source": "3__Artificial_Intelligence_Index_Report_2024_chapter_7.pdf",
+        "pages": "4"
+      }
+    ]
+  },
+  {
+    "question_id": 17,
+    "question": "Which country led in AI mentions in legislative proceedings in 2023, and what was the total count?",
+    "answer": "The United Kingdom led with 405 AI mentions in its legislative proceedings in 2023, followed by the United States (240) and Australia (227). Out of 80 countries analyzed, 48 mentioned AI at least once.",
+    "evidence": [
+      {
+        "source": "3__Artificial_Intelligence_Index_Report_2024_chapter_7.pdf",
+        "pages": "13"
+      }
+    ]
+  },
+  {
+    "question_id": 18,
+    "question": "How has the regulatory approach to AI in the US shifted over time according to the AI Index 2024?",
+    "answer": "The trend shifted significantly toward restriction. In 2023, there were 10 restrictive AI regulations compared to just 3 expansive ones. This contrasts with 2020, when there were 4 expansive regulations and only 1 restrictive one.",
+    "evidence": [
+      {
+        "source": "3__Artificial_Intelligence_Index_Report_2024_chapter_7.pdf",
+        "pages": "15"
+      }
+    ]
+  },
+  {
+    "question_id": 19,
+    "question": "How many national AI strategies existed globally as of January 2024, and which country was the first to release one?",
+    "answer": "A total of 75 national AI strategies have been unveiled as of January 2024. Canada initiated the first national AI strategy in March 2017. The peak year was 2019, with 24 strategies released.",
+    "evidence": [
+      {
+        "source": "3__Artificial_Intelligence_Index_Report_2024_chapter_7.pdf",
+        "pages": "26"
+      }
+    ]
+  },
+  {
+    "question_id": 20,
+    "question": "What were the most common subject matters for AI-related regulations in the EU in 2023?",
+    "answer": "The most common subject matters were science, technology, and communications (5 regulations), followed by government operations and politics (3). The EU's peak year for AI regulations was 2021 with 46, and in 2023 the count was 32.",
+    "evidence": [
+      {
+        "source": "3__Artificial_Intelligence_Index_Report_2024_chapter_7.pdf",
+        "pages": "16"
+      }
+    ]
+  },
+  {
+    "question_id": 21,
+    "question": "How many AI-related bills were proposed at the US federal level in 2023, and how does this compare to 2022?",
+    "answer": "In 2023, 181 AI-related bills were proposed at the US federal level, more than double the 88 proposed in 2022. This reflects a remarkable increase in AI-related legislation and policymaker attention to AI.",
+    "evidence": [
+      {
+        "source": "3__Artificial_Intelligence_Index_Report_2024_chapter_7.pdf",
+        "pages": "4"
+      }
+    ]
+  },
+  {
+    "question_id": 22,
+    "question": "What are the 8 core guiding principles of the US Executive Order 14110 on AI (October 2023)?",
+    "answer": "AI must be safe and secure; policies must promote responsible innovation and competition; policies must advance equity and civil rights; consumer interests must be protected; Americans' privacy must be safeguarded; federal use of AI must be advanced equitably; US leadership in AI must be promoted internationally; and responsible development of AI must be pursued.",
+    "evidence": [
+      {
+        "source": "4__Safe_Secure_and_Trustworthy_Development_and_Use_of_Artificial_Intelligence.pdf",
+        "pages": "1"
+      }
+    ]
+  },
+  {
+    "question_id": 23,
+    "question": "What did the US Executive Order 14110 mandate regarding AI safety standards?",
+    "answer": "It required robust, reliable, repeatable, and standardized evaluations of AI systems, as well as policies, institutions, and mechanisms to test, understand, and mitigate risks before AI systems are deployed. It directed NIST to formulate guidelines and best practices supporting industry consensus on developing secure, reliable, and ethical AI.",
+    "evidence": [
+      {
+        "source": "4__Safe_Secure_and_Trustworthy_Development_and_Use_of_Artificial_Intelligence.pdf",
+        "pages": "1"
+      }
+    ]
+  },
+  {
+    "question_id": 24,
+    "question": "How does Executive Order 14110 address AI risks to critical infrastructure?",
+    "answer": "The Secretary of Homeland Security, in coordination with the Secretary of State, is directed to lead efforts with international allies to prevent, respond to, and recover from potential critical infrastructure disruptions from AI incorporation or malicious AI use. Within 270 days, a plan for multilateral engagements must be developed.",
+    "evidence": [
+      {
+        "source": "4__Safe_Secure_and_Trustworthy_Development_and_Use_of_Artificial_Intelligence.pdf",
+        "pages": "1"
+      }
+    ]
+  },
+  {
+    "question_id": 25,
+    "question": "What body did Executive Order 14110 establish to coordinate AI governance across the US federal government?",
+    "answer": "It established the White House Artificial Intelligence Council (White House AI Council) within the Executive Office of the President, tasked with coordinating activities across federal agencies to ensure effective formulation, development, communication, and industry engagement on AI governance.",
+    "evidence": [
+      {
+        "source": "4__Safe_Secure_and_Trustworthy_Development_and_Use_of_Artificial_Intelligence.pdf",
+        "pages": "34"
+      }
+    ]
+  },
+  {
+    "question_id": 26,
+    "question": "How does Executive Order 14110 connect AI governance to civil rights and equity?",
+    "answer": "The order states the administration cannot tolerate AI use that disadvantages those already denied equal opportunity. It builds on the Blueprint for an AI Bill of Rights and the AI RMF, requiring AI compliance with all federal laws and promotion of technical evaluations, oversight, engagement with affected communities, and rigorous regulation to prevent discrimination and bias.",
+    "evidence": [
+      {
+        "source": "4__Safe_Secure_and_Trustworthy_Development_and_Use_of_Artificial_Intelligence.pdf",
+        "pages": "2"
+      }
+    ]
+  },
+  {
+    "question_id": 27,
+    "question": "What are the 7 guiding principles of the ASEAN Guide on AI Governance and Ethics?",
+    "answer": "1. Transparency and Explainability; 2. Fairness and Equity; 3. Security and Safety; 4. Human-centricity; 5. Privacy and Data Governance; 6. Accountability and Integrity; 7. Robustness and Reliability.",
+    "evidence": [
+      {
+        "source": "5__ASEANGuideonAIGovernanceandEthics.pdf",
+        "pages": "2"
+      }
+    ]
+  },
+  {
+    "question_id": 28,
+    "question": "What are the 4 key components of the ASEAN AI Governance Framework?",
+    "answer": "1. Internal governance structures and measures (e.g., AI Ethics Advisory Board); 2. Determining the level of human involvement in AI-augmented decision-making; 3. Operations management; 4. Stakeholder interaction and communication.",
+    "evidence": [
+      {
+        "source": "5__ASEANGuideonAIGovernanceandEthics.pdf",
+        "pages": "2"
+      }
+    ]
+  },
+  {
+    "question_id": 29,
+    "question": "What are the three categories of human involvement in AI-augmented decision-making defined by the ASEAN Guide?",
+    "answer": "Human-in-the-loop (human directly involved in each decision), human-over-the-loop (human monitors and can intervene), and human-out-of-the-loop (AI operates fully autonomously). The appropriate level is determined by conducting risk impact assessments based on probability and severity of harm.",
+    "evidence": [
+      {
+        "source": "5__ASEANGuideonAIGovernanceandEthics.pdf",
+        "pages": "3"
+      }
+    ]
+  },
+  {
+    "question_id": 30,
+    "question": "What national-level recommendations does the ASEAN Guide make for governments?",
+    "answer": "Nurturing AI talent and upskilling the workforce; supporting AI innovation ecosystems and start-ups; investing in AI R&D; promoting adoption of tools for AI governance implementation; and raising citizen awareness about AI's effects on society.",
+    "evidence": [
+      {
+        "source": "5__ASEANGuideonAIGovernanceandEthics.pdf",
+        "pages": "4"
+      }
+    ]
+  },
+  {
+    "question_id": 31,
+    "question": "What regional-level recommendations does the ASEAN Guide make for advancing AI governance?",
+    "answer": "Setting up an ASEAN Working Group on AI Governance; adapting the Guide to address generative AI governance; and compiling a compendium of use cases demonstrating practical implementation by organisations operating in ASEAN.",
+    "evidence": [
+      {
+        "source": "5__ASEANGuideonAIGovernanceandEthics.pdf",
+        "pages": "5"
+      }
+    ]
+  },
+  {
+    "question_id": 32,
+    "question": "What is the structure of Microsoft's responsible AI governance hierarchy?",
+    "answer": "Four levels: working-level core teams in engineering, research, and policy plus embedded Responsible AI Champions; the Office of Responsible AI (coordination); the Responsible AI Council (chaired by VP/President and CTO); and the Environmental, Social, and Public Policy Committee of the Microsoft Board (highest oversight).",
+    "evidence": [
+      {
+        "source": "6__Microsoft_Governing_AIA_Blueprint_for_the_Future.pdf",
+        "pages": "30"
+      }
+    ]
+  },
+  {
+    "question_id": 33,
+    "question": "What is Microsoft's Responsible AI Standard and what purpose does it serve?",
+    "answer": "It is a practical framework that translates high-level responsible AI principles into actionable guidance for engineering teams. It sets out how Microsoft builds AI systems using repeatable processes to identify, measure, and mitigate potential risks ahead of time. Version 2 was released in 2022 and is publicly available.",
+    "evidence": [
+      {
+        "source": "6__Microsoft_Governing_AIA_Blueprint_for_the_Future.pdf",
+        "pages": "11"
+      }
+    ]
+  },
+  {
+    "question_id": 34,
+    "question": "How does Microsoft's Sensitive Uses program work and why was it created?",
+    "answer": "Founded in 2019, it subjects the most sensitive and novel AI use cases to rigorous, specialized review resulting in tailored guidance. Roughly 600 sensitive use case reviews had been completed, with almost 150 in the preceding 11 months. It was created to ensure higher-risk AI applications receive appropriate scrutiny.",
+    "evidence": [
+      {
+        "source": "6__Microsoft_Governing_AIA_Blueprint_for_the_Future.pdf",
+        "pages": "8"
+      }
+    ]
+  },
+  {
+    "question_id": 35,
+    "question": "What are the 5 layers of Microsoft's Responsible AI Governance Framework?",
+    "answer": "From innermost to outermost: RAI Principles; RAI Policies and Standard; Implementation (Training, Tools, Testing); and surrounding processes of Monitoring, Auditing, Compliance, and Reporting.",
+    "evidence": [
+      {
+        "source": "6__Microsoft_Governing_AIA_Blueprint_for_the_Future.pdf",
+        "pages": "30"
+      }
+    ]
+  },
+  {
+    "question_id": 36,
+    "question": "What policy recommendations does Microsoft make in its AI Blueprint for governments?",
+    "answer": "Implementing and building upon new government-led AI safety frameworks; requiring effective safety brakes for AI systems controlling critical infrastructure; developing a broad legal and regulatory framework based on AI's technology architecture; promoting transparency and academic/nonprofit access to AI; and pursuing new public-private partnerships.",
+    "evidence": [
+      {
+        "source": "6__Microsoft_Governing_AIA_Blueprint_for_the_Future.pdf",
+        "pages": "2"
+      }
+    ]
+  },
+  {
+    "question_id": 37,
+    "question": "What are the 10 OECD AI Principles as listed in the 2024 Implementation Report?",
+    "answer": "Five principles for responsible stewardship: 1.1 Inclusive growth and well-being; 1.2 Human-centred values and fairness; 1.3 Transparency and explainability; 1.4 Robustness, security and safety; 1.5 Accountability. Five recommendations to governments: 2.1 Investing in AI R&D; 2.2 Fostering a digital ecosystem; 2.3 Shaping an enabling policy environment; 2.4 Building human capacity; 2.5 International co-operation.",
+    "evidence": [
+      {
+        "source": "7__Report_on_the_Implementation_of_the_OECD_Recommendation_on_Artificial_Intelligence.pdf",
+        "pages": "3"
+      }
+    ]
+  },
+  {
+    "question_id": 38,
+    "question": "Why was the OECD definition of an AI system revised in November 2023?",
+    "answer": "To ensure technical accuracy and reflect developments including generative AI. The update clarified objectives may be explicit or implicit; underscored input can be from humans or machines; clarified applicability to generative AI producing \"content\"; substituted \"real\" with \"physical\"; and reflected that some AI systems continue to evolve after design and deployment.",
+    "evidence": [
+      {
+        "source": "7__Report_on_the_Implementation_of_the_OECD_Recommendation_on_Artificial_Intelligence.pdf",
+        "pages": "3"
+      }
+    ]
+  },
+  {
+    "question_id": 39,
+    "question": "How many countries had adhered to the OECD AI Recommendation as of December 2023?",
+    "answer": "In addition to the 38 OECD Members, eight non-members had adhered: Argentina, Brazil, Egypt, Malta, Peru, Romania, Singapore, and Ukraine — for a total of 46 adherent countries.",
+    "evidence": [
+      {
+        "source": "7__Report_on_the_Implementation_of_the_OECD_Recommendation_on_Artificial_Intelligence.pdf",
+        "pages": "3"
+      }
+    ]
+  },
+  {
+    "question_id": 40,
+    "question": "What did adherents suggest as ways to enhance the relevance of the OECD AI Principles?",
+    "answer": "Tailoring the Principles to different types of AI; creating specific guidelines for different stakeholders; assessing applicability to frontier and foundation models; regular reviews to maintain adaptability; and establishing monitoring/reporting mechanisms including benchmarking and case studies.",
+    "evidence": [
+      {
+        "source": "7__Report_on_the_Implementation_of_the_OECD_Recommendation_on_Artificial_Intelligence.pdf",
+        "pages": "28"
+      }
+    ]
+  },
+  {
+    "question_id": 41,
+    "question": "What does the OECD 2024 Report say about the number of national AI strategies globally among adherents?",
+    "answer": "41 OECD adherents had a national AI strategy in place and three were in the process of developing one. The OECD.AI Policy Observatory contains over 50 national strategic and government-wide initiatives, compared to only a few countries with national AI strategies in 2017.",
+    "evidence": [
+      {
+        "source": "7__Report_on_the_Implementation_of_the_OECD_Recommendation_on_Artificial_Intelligence.pdf",
+        "pages": "3"
+      }
+    ]
+  },
+  {
+    "question_id": 42,
+    "question": "What are the main challenges developing countries face in adopting AI according to this World Bank report?",
+    "answer": "Shortage of AI talent (with women underrepresented); limited investment; inadequate digital infrastructure; weaker research and innovation bases; lack of data; and difficulty retaining local AI talent as skilled workers move to high-income countries. More than half of the developing world population lacks basic digital skills.",
+    "evidence": [
+      {
+        "source": "8__Harnessing_Artificial_Intelligence_for_Development_in_the_PostCOVID19_Era_A_Review_of_National_AI_Strategies_and_Policies.pdf",
+        "pages": "3"
+      }
+    ]
+  },
+  {
+    "question_id": 43,
+    "question": "What 8 policy domains were used to assess national AI strategies in this report?",
+    "answer": "AI research and development; data and digital infrastructure; talent and skills; ethical and legal frameworks; government applications of AI; sectoral AI adoption; start-up ecosystems; and international cooperation.",
+    "evidence": [
+      {
+        "source": "8__Harnessing_Artificial_Intelligence_for_Development_in_the_PostCOVID19_Era_A_Review_of_National_AI_Strategies_and_Policies.pdf",
+        "pages": "3"
+      }
+    ]
+  },
+  {
+    "question_id": 44,
+    "question": "How do India and China's approaches to national AI strategy differ?",
+    "answer": "Both use a top-down central government approach, but China's ecosystem is more mature with greater committed resources. China's strategy includes directly funding start-ups, selecting national champions, and limiting foreign companies. India's strategy, designed by NITI Aayog, outlines key sectors and crosscutting themes like data storage and privacy.",
+    "evidence": [
+      {
+        "source": "8__Harnessing_Artificial_Intelligence_for_Development_in_the_PostCOVID19_Era_A_Review_of_National_AI_Strategies_and_Policies.pdf",
+        "pages": "24"
+      }
+    ]
+  },
+  {
+    "question_id": 45,
+    "question": "What role did AI play during the COVID-19 pandemic according to this report?",
+    "answer": "AI was used to monitor virus spread and predict outbreaks; accelerate vaccine research; power chatbots for public health information and self-diagnosis; and is being explored for triage planning, supply chain management, and post-vaccination surveillance of adverse reactions.",
+    "evidence": [
+      {
+        "source": "8__Harnessing_Artificial_Intelligence_for_Development_in_the_PostCOVID19_Era_A_Review_of_National_AI_Strategies_and_Policies.pdf",
+        "pages": "1"
+      }
+    ]
+  },
+  {
+    "question_id": 46,
+    "question": "What three categories of government role in AI strategy does this report define?",
+    "answer": "\"Directing\" (government directly controls and funds AI initiatives), \"Enabling\" (government creates conditions for private sector AI development), and \"no initiative\" (government has not addressed a domain). The heat maps for Finland and the UAE illustrate these differences across domains.",
+    "evidence": [
+      {
+        "source": "8__Harnessing_Artificial_Intelligence_for_Development_in_the_PostCOVID19_Era_A_Review_of_National_AI_Strategies_and_Policies.pdf",
+        "pages": "10"
+      }
+    ]
+  },
+  {
+    "question_id": 47,
+    "question": "What are the 9 dimensions of Singapore's Model AI Governance Framework for Generative AI?",
+    "answer": "1. Accountability; 2. Data; 3. Trusted Development and Deployment; 4. Incident Reporting; 5. Testing and Assurance; 6. Security; 7. Content Provenance; 8. Safety and Alignment R&D; 9. AI for Public Good.",
+    "evidence": [
+      {
+        "source": "9__Model_AI_Governance_Framework_for_Generative_AI.pdf",
+        "pages": "2"
+      }
+    ]
+  },
+  {
+    "question_id": 48,
+    "question": "How does the Singapore GenAI Framework address content provenance?",
+    "answer": "It promotes technical solutions like digital watermarking (e.g., Google DeepMind's SynthID) and cryptographic provenance (e.g., C2PA open standard) to label and track AI-generated content. It acknowledges limitations — provenance info can be stripped, consumer understanding is low — so publisher cooperation and standardization of edit labels are also needed.",
+    "evidence": [
+      {
+        "source": "9__Model_AI_Governance_Framework_for_Generative_AI.pdf",
+        "pages": "4"
+      }
+    ]
+  },
+  {
+    "question_id": 49,
+    "question": "What new risks does the Singapore GenAI Framework identify that generative AI introduces compared to traditional AI?",
+    "answer": "New risks include: hallucination, copyright infringement, value alignment, deepfakes and impersonation, propagation of embedded biases, privacy and confidentiality risks, and new security threat vectors. These reinforce some traditional AI risks (bias, misuse, lack of explainability) and add entirely new ones.",
+    "evidence": [
+      {
+        "source": "9__Model_AI_Governance_Framework_for_Generative_AI.pdf",
+        "pages": "3"
+      }
+    ]
+  },
+  {
+    "question_id": 50,
+    "question": "How does the Singapore GenAI Framework define accountability in the AI development chain?",
+    "answer": "Accountability is a key incentive structure requiring players along the AI development chain to be responsible to end-users. Given that generative AI involves multiple layers in the tech stack, the allocation of responsibility may not be immediately clear, but parallels can be drawn with cloud and software development stacks to establish initial practical steps.",
+    "evidence": [
+      {
+        "source": "9__Model_AI_Governance_Framework_for_Generative_AI.pdf",
+        "pages": "5"
+      }
+    ]
+  },
+  {
+    "question_id": 51,
+    "question": "What sustainability considerations does the Singapore GenAI Framework raise?",
+    "answer": "The resource requirements of generative AI (energy, water) are non-trivial and will likely impact sustainability goals. Stakeholders need to track carbon footprint of generative AI, develop energy-efficient compute, and host AI workloads in data centres with best-in-class energy-efficient practices and green energy sources.",
+    "evidence": [
+      {
+        "source": "9__Model_AI_Governance_Framework_for_Generative_AI.pdf",
+        "pages": "30"
+      }
+    ]
+  },
+  {
+    "question_id": 52,
+    "question": "What does the Singapore GenAI Framework recommend regarding incident reporting?",
+    "answer": "It recommends implementing an incident management system for timely notification, remediation, and continuous improvement, recognising that no AI system is foolproof. Incident reporting allows organisations to learn from failures, communicate transparently with affected parties, and drive ongoing improvements to AI safety and reliability.",
+    "evidence": [
+      {
+        "source": "9__Model_AI_Governance_Framework_for_Generative_AI.pdf",
+        "pages": "2"
+      }
+    ]
+  },
+  {
+    "question_id": 53,
+    "question": "What are the 5 essential domains of the GenAI Governance Framework?",
+    "answer": "1. Strategic Alignment and Control Environment; 2. Data and Compliance Management; 3. Operational and Technology Management; 4. Human, Ethical, and Social Considerations; 5. Transparency, Accountability, and Continuous Improvement.",
+    "evidence": [
+      {
+        "source": "10__Generative_AI_Governance_Framework.pdf",
+        "pages": "3"
+      }
+    ]
+  },
+  {
+    "question_id": 54,
+    "question": "What objectives does the GenAI Governance Framework aim to help organizations achieve?",
+    "answer": "Enhance overall GenAI risk management; establish GenAI governance structures; drive strategic improvement and compliance; secure stakeholder engagement and trust; and benchmark for continuous improvement.",
+    "evidence": [
+      {
+        "source": "10__Generative_AI_Governance_Framework.pdf",
+        "pages": "6"
+      }
+    ]
+  },
+  {
+    "question_id": 55,
+    "question": "How does the GenAI Governance Framework define its approach to human, ethical, and social considerations?",
+    "answer": "This domain requires organizations to conduct GenAI training and manage human resource risks; ensure ethical GenAI use that mitigates bias; assess and manage reputational and social impacts; and assess and manage environmental impacts.",
+    "evidence": [
+      {
+        "source": "10__Generative_AI_Governance_Framework.pdf",
+        "pages": "3"
+      }
+    ]
+  },
+  {
+    "question_id": 56,
+    "question": "What does the GenAI Governance Framework require regarding transparency and accountability?",
+    "answer": "It requires ensuring transparent and traceable GenAI decision-making, and monitoring the evolution of GenAI to update governance practices continuously. Each domain identifies specific risks and control considerations to help organizations understand how GenAI can threaten objectives and craft mitigating governance approaches.",
+    "evidence": [
+      {
+        "source": "10__Generative_AI_Governance_Framework.pdf",
+        "pages": "6"
+      }
+    ]
+  },
+  {
+    "question_id": 57,
+    "question": "Who contributed to developing the GenAI Governance Framework and who is it designed for?",
+    "answer": "More than 1,000 practitioners and academics contributed, including GenAI specialists, internal/external auditors, regulators, audit committee members, and C-suite executives. It is designed to benefit organizations across various sectors — for-profit, not-for-profit, and governmental.",
+    "evidence": [
+      {
+        "source": "10__Generative_AI_Governance_Framework.pdf",
+        "pages": "4"
+      }
+    ]
+  },
+  {
+    "question_id": 58,
+    "question": "What are the 4 key areas of the Singapore Model AI Governance Framework (Second Edition)?",
+    "answer": "1. Internal Governance Structures and Measures; 2. Determining the Level of Human Involvement in AI-Augmented Decision-Making; 3. Operations Management; 4. Stakeholder Interaction and Communication.",
+    "evidence": [
+      {
+        "source": "11_Model_Artificial_Intelligence_Governance_Framework_Personal_Data_Protection_Commission__PDPC__Singapore.pdf",
+        "pages": "3"
+      }
+    ]
+  },
+  {
+    "question_id": 59,
+    "question": "How does the Singapore PDPC Framework approach human involvement in AI decision-making?",
+    "answer": "It recommends conducting risk impact assessments to determine the level of risk, then applying three broad categories of human involvement — human-in-the-loop, human-over-the-loop, or human-out-of-the-loop — based on the assessed risk level. Higher risk situations require greater human oversight.",
+    "evidence": [
+      {
+        "source": "11_Model_Artificial_Intelligence_Governance_Framework_Personal_Data_Protection_Commission__PDPC__Singapore.pdf",
+        "pages": "30"
+      }
+    ]
+  },
+  {
+    "question_id": 60,
+    "question": "What internal governance structures does the Singapore PDPC Framework recommend?",
+    "answer": "A multi-disciplinary central governing body (such as an AI Ethics Advisory Board) to oversee AI governance efforts; development of standards, guidelines, tools, and templates; and clearly defined roles and responsibilities of personnel involved in responsible AI design, development, and deployment.",
+    "evidence": [
+      {
+        "source": "11_Model_Artificial_Intelligence_Governance_Framework_Personal_Data_Protection_Commission__PDPC__Singapore.pdf",
+        "pages": "13"
+      }
+    ]
+  },
+  {
+    "question_id": 61,
+    "question": "How does the Singapore PDPC Framework address data privacy and protection in AI systems?",
+    "answer": "AI systems must have proper mechanisms for data privacy and protection throughout the entire lifecycle. Data protocols must govern who can access data and when. The way data is collected, stored, generated, and deleted must comply with applicable data protection laws, data governance legislation, and ethical principles.",
+    "evidence": [
+      {
+        "source": "11_Model_Artificial_Intelligence_Governance_Framework_Personal_Data_Protection_Commission__PDPC__Singapore.pdf",
+        "pages": "13"
+      }
+    ]
+  },
+  {
+    "question_id": 62,
+    "question": "What is the purpose of the AI Risk Impact Assessment Template in the Singapore PDPC Framework?",
+    "answer": "It identifies potential risks and vulnerabilities associated with an AI system, ensures design/development/deployment complies with the four key framework areas, and enables consistent, systematic documentation for risk assessment. It is used by developers, deployers, and AI governance/ethics committees within organisations.",
+    "evidence": [
+      {
+        "source": "11_Model_Artificial_Intelligence_Governance_Framework_Personal_Data_Protection_Commission__PDPC__Singapore.pdf",
+        "pages": "3"
+      }
+    ]
+  },
+  {
+    "question_id": 63,
+    "question": "What are the 5 pillars of the WEF AI acquisition framework?",
+    "answer": "1. Business Strategy; 2. Commercial Strategy; 3. Data Strategy; 4. Ethics and Sustainability; 5. Governance, Risk and Compliance (GRC). Ethics and sustainability are at the core, driving all other pillars, with GRC providing ongoing support across the framework.",
+    "evidence": [
+      {
+        "source": "12__WEF_Adopting_AI_Responsibly_Guidelines_for_Procurement_of_AI_Solutions_by_the_Private_Sector_2023.pdf",
+        "pages": "2"
+      }
+    ]
+  },
+  {
+    "question_id": 64,
+    "question": "What specific considerations does the WEF guide provide for Commercial Strategy in AI procurement?",
+    "answer": "Commercial strategy should focus on value delivered for money invested, not just monetary returns. TCO timeframe for AI is longer than typical software (3–7 years). Organizations should account for ongoing retraining costs, manage concept drifts, and use outcome-based pricing models to drive joint accountability with suppliers.",
+    "evidence": [
+      {
+        "source": "12__WEF_Adopting_AI_Responsibly_Guidelines_for_Procurement_of_AI_Solutions_by_the_Private_Sector_2023.pdf",
+        "pages": "6"
+      }
+    ]
+  },
+  {
+    "question_id": 65,
+    "question": "What is the role of procurement in the WEF AI acquisition framework?",
+    "answer": "Procurement acts as the orchestrator driving implementation of the framework. It serves as the central point ensuring all stakeholders are involved in a timely manner, helping business teams accelerate targets, creating RFPs for AI products, safeguarding organizational interests, and helping AI-solution providers understand core enterprise expectations.",
+    "evidence": [
+      {
+        "source": "12__WEF_Adopting_AI_Responsibly_Guidelines_for_Procurement_of_AI_Solutions_by_the_Private_Sector_2023.pdf",
+        "pages": "4"
+      }
+    ]
+  },
+  {
+    "question_id": 66,
+    "question": "What does the WEF guide specify about Governance, Risk and Compliance (GRC) in AI procurement?",
+    "answer": "GRC is a foundational pillar providing ongoing support across the entire AI acquisition strategy. It requires organizations to assess ethical standards and regulatory compliance, ensure alignment with legal requirements, establish governance structures to protect investment, and maintain supplier relationship management across the sourcing lifecycle.",
+    "evidence": [
+      {
+        "source": "12__WEF_Adopting_AI_Responsibly_Guidelines_for_Procurement_of_AI_Solutions_by_the_Private_Sector_2023.pdf",
+        "pages": "2"
+      }
+    ]
+  },
+  {
+    "question_id": 67,
+    "question": "What does the WEF guide say about Data Strategy in AI procurement?",
+    "answer": "Data strategy is a key pillar requiring organizations to evaluate data availability, quality, and governance before acquiring an AI solution. It addresses data collection and cleansing, integration with existing IT infrastructure, risk factors related to data, and stakeholder needs across different business units.",
+    "evidence": [
+      {
+        "source": "12__WEF_Adopting_AI_Responsibly_Guidelines_for_Procurement_of_AI_Solutions_by_the_Private_Sector_2023.pdf",
+        "pages": "2"
+      }
+    ]
+  },
+  {
+    "question_id": 68,
+    "question": "How does the WEF guide define the relationship between ethics, sustainability, and the other four pillars?",
+    "answer": "Ethics and sustainability are at the core of the AI acquisition framework, driving all other pillars. The framework ensures AI acquisition is grounded in ethical principles with strong governance to apply those principles, thereby mitigating bias and driving resilience across business, commercial, and data strategy decisions.",
+    "evidence": [
+      {
+        "source": "12__WEF_Adopting_AI_Responsibly_Guidelines_for_Procurement_of_AI_Solutions_by_the_Private_Sector_2023.pdf",
+        "pages": "2"
+      }
+    ]
+  },
+  {
+    "question_id": 69,
+    "question": "How should organizations use the WEF AI procurement guidelines, and what is their primary limitation?",
+    "answer": "The guidelines should only be applied after determining that AI is the best solution for a specific problem. They are directional (not prescriptive) and industry agnostic (not problem-specific). A key limitation is that sector-specific concerns may not be addressed, and each AI acquisition requires inputs from multiple internal stakeholders.",
+    "evidence": [
+      {
+        "source": "12__WEF_Adopting_AI_Responsibly_Guidelines_for_Procurement_of_AI_Solutions_by_the_Private_Sector_2023.pdf",
+        "pages": "4"
+      }
+    ]
+  },
+  {
+    "question_id": 70,
+    "question": "What does the WEF guide recommend regarding ROI measurement for AI investments?",
+    "answer": "Choosing and defining the most suitable KPIs is crucial for continually monitoring whether the investment is yielding value at all stages. ROI should include the overall value and potential benefits generated for the organization, not just monetary returns, and organizations should include outcome-based pricing models to drive joint accountability with suppliers.",
+    "evidence": [
+      {
+        "source": "12__WEF_Adopting_AI_Responsibly_Guidelines_for_Procurement_of_AI_Solutions_by_the_Private_Sector_2023.pdf",
+        "pages": "9"
+      }
+    ]
+  }
+]
