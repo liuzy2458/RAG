@@ -141,4 +141,4 @@ If you want to expand further, consider adding:
 - Stronger retrieval rerankers
 - Direct QA and retrieval hybrid strategies
 - Multi-turn conversation context maintenance
-- More robust Chinese text preprocessing and tokenization support
+- More robust text preprocessing and tokenization support
