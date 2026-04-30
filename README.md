@@ -95,20 +95,26 @@ This configuration is used for both evaluation and interactive Q&A.
 pip install -r requirements.txt
 python -m spacy download en_core_web_sm
 ```
-2. Configure LLM API
+### 2. Configure LLM API
 
 Set up your API key (e.g., OpenAI / Zhipu / Anthropic) in environment variables or in llm.py.
 
-3. Run Full Pipeline
+### 3. Run Full Pipeline
 
-```python main.py --configs full --question-set all --sample-size 30```
+```bash
+python main.py --configs full --question-set all --sample-size 30
+```
 
-4. Interactive Q&A
+### 4. Interactive Q&A
 
-```python chat.py```
+```bash
+python chat.py
+```
 
-5. Single Query
-```python chat.py --query "Explain AI governance principles"```
+### 5. Single Query
+```bash
+python chat.py --query "Explain AI governance principles"
+```
 
 chat.py Options
 --quiet: reduce logs
