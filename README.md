@@ -117,20 +117,27 @@ python chat.py --query "Explain AI governance principles"
 ```
 
 ## chat.py Options
---quiet: reduce logs
---fast: faster but lower accuracy
---no-rerank: skip reranker
---api-key: manually specify API key
+
+- `--quiet`: reduce logs  
+- `--fast`: faster but lower accuracy  
+- `--no-rerank`: skip reranker  
+- `--api-key`: manually specify API key  
+
+---
 
 ## Directory Structure
-pdf/: source documents
-rag_cache/: processed text and chunks
-chroma_db/: vector database
-output/: evaluation results
-question/: question sets
+
+- `pdf/`: source documents  
+- `rag_cache/`: processed text and chunks  
+- `chroma_db/`: vector database  
+- `output/`: evaluation results  
+- `question/`: question sets  
+
+---
 
 ## Future Work
-stronger reranking models
-multi-turn conversation support
-improved retrieval strategies
-better handling of long-context reasoning
+
+- stronger reranking models  
+- multi-turn conversation support  
+- improved retrieval strategies  
+- better handling of long-context reasoning  
